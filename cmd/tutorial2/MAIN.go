@@ -3,7 +3,7 @@ package main;
 import "fmt";
 import "unicode/utf8";
 
-func main(){
+func Main(){
   var intNum int=32767;
   intNum=intNum+1;
   fmt.Println(intNum);
